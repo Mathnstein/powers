@@ -1,12 +1,11 @@
 Package: powers
 Type: Package
-Title: Simple computation of powers
+Title: Simple computation of powers and complex numbers
 Version: 0.1.0
 Author: Authors@R: person("Cody","Griffith", email = cody.griffith94@gmail.com)
 Maintainer: Cody Griffith <cody.griffith94@gmail.com>
-Description: This package will square and cube vectors
-    I think this is four spaces (2 tabs)
-License: MIT + file LICENSE.txt
+Description: This package will square and cube vectors as well as do some basic complex arithmetic.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

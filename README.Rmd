@@ -1,0 +1,35 @@
+---
+title: "Readme"
+author: "Cody Griffith"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+---
+
+## Functions
+
+We have defined the following functions:
+
+* square(x)
+* cube(x)
+* modulus(r,i)
+* argument(r,i)
+* expform(r,i)
+
+## Examples
+
+```{r}
+library(powers)
+square(100)
+cube(3)
+modulus(1,1)
+argument(1,1)
+expform(1,1)
+```
+
+## Note:
+
+The functions square and cube are vectorized and can take vector or matrix inputs. The functions modulus, argument and expform can only take on pairs of values and are sensitive to vector inputs.
+
+## Reflection
+
+R Studio definitely makes the package building as simple as ever. It is a bit hairy to navigate sometimes but once you understand the process, it is super easy to make a self contained package!

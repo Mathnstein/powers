@@ -1,0 +1,33 @@
+---
+title: "Example Vignette"
+author: "Cody Griffith"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Functions
+
+We have defined the following functions:
+
+* square(x)
+* cube(x)
+* modulus(r,i)
+* argument(r,i)
+* expform(r,i)
+
+## Examples
+
+```{r}
+square(100)
+cube(3)
+modulus(1,1)
+argument(1,1)
+expform(1,1)
+```
+## Note:
+
+The functions square and cube are vectorized and can take vector or matrix inputs. The functions modulus, argument and expform can only take on pairs of values and are sensitive to vector inputs.
