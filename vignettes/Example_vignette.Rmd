@@ -22,6 +22,7 @@ We have defined the following functions:
 ## Examples
 
 ```{r}
+library(powers)
 square(100)
 cube(3)
 modulus(1,1)
